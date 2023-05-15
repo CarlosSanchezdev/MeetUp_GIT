@@ -1,10 +1,12 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar'
+import NavBar from '../navbar/NavBar'
+import Cards from '../components/Cards/Cards'
 
 function Home() {
   return (
     <div>
-      
+      <NavBar />
+      <Cards />
     </div>
   )
 }
