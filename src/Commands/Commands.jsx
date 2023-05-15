@@ -4,7 +4,6 @@ import image2 from '../assets/images/commands-02.png'
 import image3 from '../assets/images/commands-03.png'
 import image4 from '../assets/images/commands-04.png'
 import image5 from '../assets/images/commands-05.png'
-import image6 from '../assets/images/commands-06.png'
 import image7 from '../assets/images/commands-07.png'
 import image8 from '../assets/images/commands-08.png'
 import image9 from '../assets/images/commands-09.png'
@@ -16,7 +15,7 @@ import image14 from '../assets/images/commands-14.png'
 import image15 from '../assets/images/commands-15.png'
 import image16 from '../assets/images/commands-16.png'
 import image17 from '../assets/images/commands-17.png'
-import image18 from '../assets/images/commands-18.png'
+
 
 
 

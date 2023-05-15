@@ -13,7 +13,7 @@ function Navbar() {
         <Link to="/">
           <img className="navbar-brand logo"  src={logo} alt="logo" />
         </Link>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse w-25" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item dropdown">
               <a
