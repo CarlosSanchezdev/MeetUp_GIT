@@ -4,11 +4,13 @@ import Home from "../views/Home"
 
 
 
+
 const Router = () => {
     return (
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />}></Route>
+              
                 
             </Routes>
         </BrowserRouter>
