@@ -1,7 +1,7 @@
 import React from 'react'
-import image from "../assets/cartas-01.jpg"
-import image2 from "../assets/cartas-02.jpg"
-import image3 from "../assets/cartas-03.jpg"
+import image from "../../assets/images/cartas-01.jpg"
+import image2 from "../../assets/images/cartas-02.jpg"
+import image3 from "../../assets/images/cartas-03.jpg"
 
 
 function Cards() {
