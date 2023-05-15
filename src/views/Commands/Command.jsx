@@ -1,8 +1,9 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/NavBar'
 import Commands from '../../Commands/Commands'
+import './Command.css'
 
-function Commands() {
+function Command() {
   return (
     <div>
       <Navbar />
@@ -11,4 +12,4 @@ function Commands() {
   )
 }
 
-export default Commands
+export default Command

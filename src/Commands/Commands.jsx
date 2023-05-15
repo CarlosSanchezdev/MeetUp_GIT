@@ -21,28 +21,61 @@ import image18 from '../assets/images/commands-18.png'
 
 
 function Commands() {
-  return (
-    <div className="d-flex justify-content-around m-4">
-    <img src={image1} alt="imagen1" style={{ width: "100px", height: "100px" }} />
-    <img src={image2} alt="imagen2" style={{ width: "100px", height: "100px" }} />
-    <img src={image3} alt="imagen3" style={{ width: "100px", height: "100px" }} />
-    <img src={image4} alt="imagen4" style={{ width: "100px", height: "100px" }} />
-    <img src={image5} alt="imagen5" style={{ width: "100px", height: "100px" }} />
-    <img src={image6} alt="imagen6" style={{ width: "100px", height: "100px" }} />
-    <img src={image7} alt="imagen7" style={{ width: "100px", height: "100px" }} />
-    <img src={image8} alt="imagen8" style={{ width: "100px", height: "100px" }} />
-    <img src={image9} alt="imagen9" style={{ width: "100px", height: "100px" }} />
-    <img src={image10} alt="imagen10" style={{ width: "100px", height: "100px" }} />
-    <img src={image11} alt="imagen11" style={{ width: "100px", height: "100px" }} />
-    <img src={image12} alt="imagen12" style={{ width: "100px", height: "100px" }} />
-    <img src={image13} alt="imagen13" style={{ width: "100px", height: "100px" }} />
-    <img src={image14} alt="imagen14" style={{ width: "100px", height: "100px" }} />
-    <img src={image15} alt="imagen15" style={{ width: "100px", height: "100px" }} />
-    <img src={image16} alt="imagen16" style={{ width: "100px", height: "100px" }} />
-    <img src={image17} alt="imagen17" style={{ width: "100px", height: "100px" }} />
-    <img src={image18} alt="imagen18" style={{ width: "100px", height: "100px" }} />
-   </div>
-  )
+    return (
+        <div className="container justify-content-around ">
+            <div className="row row-cols-4">
+                <div className="col">
+                    <img src={image1} alt="imagen1" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image2} alt="imagen2" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image3} alt="imagen3" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image4} alt="imagen4" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image5} alt="imagen5" style={{ width: "300px" }} />
+                </div>
+              <div className="col">
+                    <img src={image7} alt="imagen7" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image8} alt="imagen8" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image9} alt="imagen9" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image10} alt="imagen10" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image11} alt="imagen11" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image12} alt="imagen12" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image13} alt="imagen13" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image14} alt="imagen14" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image15} alt="imagen15" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image16} alt="imagen16" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image17} alt="imagen17" style={{ width: "300px" }} />
+                </div>
+               
+            </div>
+        </div>
+    )
 }
 
 export default Commands
