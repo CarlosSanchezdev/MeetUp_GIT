@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '../../components/Navbar/NavBar'
+import GoodPractices from '../../components/GoodPractices/GoodPractices'
 
 function Practices() {
   return (
-    <div>Practices</div>
+    <>
+        <Navbar />
+        <GoodPractices />
+    </>
   )
 }
 

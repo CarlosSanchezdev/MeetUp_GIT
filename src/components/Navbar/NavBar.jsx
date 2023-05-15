@@ -8,12 +8,12 @@ import logo from "../../assets/images/logo.png"
 function Navbar() {
   
   return (
-    <nav className="navbar navbar-expand-lg bg-black">
+    <nav className="navbar navbar-expand-lg bg-black ">
       <div className="container-fluid">
         <Link to="/">
           <img className="navbar-brand logo"  src={logo} alt="logo" />
         </Link>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse w-25" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item dropdown">
               <a
