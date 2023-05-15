@@ -46,7 +46,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link
-                    to="/mosaic"
+                    to="/exercise"
                     className="dropdown-item text-white"
                   >
                     Ejercicio
