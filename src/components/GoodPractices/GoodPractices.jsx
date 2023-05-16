@@ -7,7 +7,7 @@ import practicas05 from '../../assets/images/practicas-05.png'
 
 function GoodPractices() {
   return (
-    <div className="d-flex flex-column align-items-center   ">
+    <div className="bg-black d-flex flex-column align-items-center   ">
         <div className="d-flex justify-center m-5 ">
             <img src={practicas01} className="mx-4" alt="practicas-01" style={{ width: "530px" }} />
         

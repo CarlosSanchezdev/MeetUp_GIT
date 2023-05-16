@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/NavBar'
-import Commands from '../../Commands/Commands'
+import Commands from '../../components/Commands/Commands'
 import './Command.css'
 
 function Command() {
   return (
-    <div>
+    <div className='bg-black'>
       <Navbar />
       <Commands />
     </div>

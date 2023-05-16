@@ -6,7 +6,7 @@ function Baby() {
   return (
     <div className='baby' >
      <div  className=" d-flex justify-content-around m-4">
-      <img src={image1} alt="imagen1"style={{  height: "550px" }} />
+      <img src={image1} alt="imagen1"style={{  height: "580px" }} />
       </div>
     </div>
   )
