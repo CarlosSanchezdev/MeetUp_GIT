@@ -1,3 +1,7 @@
-.col{
+.commands {
+    transition: all .2s ease-in-out; 
+}
 
+.commands:hover{
+    transform: scale(0.95);
 }

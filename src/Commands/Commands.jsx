@@ -19,6 +19,7 @@ import image18 from '../assets/images/commands-19.png'
 import image19 from '../assets/images/commands-20.png'
 import image20 from '../assets/images/commands-21.png'
 import image21 from '../assets/images/commands-22.png'
+import './Commands.css'
 
 
 
@@ -28,64 +29,64 @@ function Commands() {
         <div className="container justify-content-around ">
             <div className="row row-cols-4">
                 <div className="col">
-                    <img src={image1} alt="imagen1" style={{ width: "300px" }} />
+                    <img className= "commands" src={image1} alt="imagen1" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image2} alt="imagen2" style={{ width: "300px" }} />
+                    <img className= "commands" src={image2} alt="imagen2" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image3} alt="imagen3" style={{ width: "300px" }} />
+                    <img className= "commands" src={image3} alt="imagen3" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image4} alt="imagen4" style={{ width: "300px" }} />
+                    <img className= "commands" src={image4} alt="imagen4" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image5} alt="imagen5" style={{ width: "300px" }} />
+                    <img className= "commands" src={image5} alt="imagen5" style={{ width: "300px" }} />
                 </div>
               <div className="col">
-                    <img src={image7} alt="imagen7" style={{ width: "300px" }} />
+                    <img className= "commands" src={image7} alt="imagen7" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image8} alt="imagen8" style={{ width: "300px" }} />
+                    <img className= "commands" src={image8} alt="imagen8" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image9} alt="imagen9" style={{ width: "300px" }} />
+                    <img className= "commands" src={image9} alt="imagen9" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image10} alt="imagen10" style={{ width: "300px" }} />
+                    <img className= "commands" src={image10} alt="imagen10" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image11} alt="imagen11" style={{ width: "300px" }} />
+                    <img className= "commands" src={image11} alt="imagen11" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image12} alt="imagen12" style={{ width: "300px" }} />
+                    <img className= "commands" src={image12} alt="imagen12" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image13} alt="imagen13" style={{ width: "300px" }} />
+                    <img className= "commands" src={image13} alt="imagen13" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image14} alt="imagen14" style={{ width: "300px" }} />
+                    <img className= "commands" src={image14} alt="imagen14" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image15} alt="imagen15" style={{ width: "300px" }} />
+                    <img className= "commands" src={image15} alt="imagen15" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image16} alt="imagen16" style={{ width: "300px" }} />
+                    <img className= "commands" src={image16} alt="imagen16" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image17} alt="imagen17" style={{ width: "300px" }} />
+                    <img className= "commands" src={image17} alt="imagen17" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image18} alt="imagen14" style={{ width: "300px" }} />
+                    <img className= "commands" src={image18} alt="imagen14" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image19} alt="imagen15" style={{ width: "300px" }} />
+                    <img className= "commands" src={image19} alt="imagen15" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image20} alt="imagen16" style={{ width: "300px" }} />
+                    <img className= "commands" src={image20} alt="imagen16" style={{ width: "300px" }} />
                 </div>
                 <div className="col">
-                    <img src={image21} alt="imagen17" style={{ width: "300px" }} />
+                    <img className= "commands" src={image21} alt="imagen17" style={{ width: "300px" }} />
                 </div>
                
             </div>
