@@ -4,22 +4,23 @@ import practicas02 from '../../assets/images/practicas-02.png'
 import practicas03 from '../../assets/images/practicas-03.png'
 import practicas04 from '../../assets/images/practicas-04.png'
 import practicas05 from '../../assets/images/practicas-05.png'
+import './GoodPractices.css'
 
 function GoodPractices() {
   return (
     <div className="d-flex flex-column align-items-center   ">
         <div className="d-flex justify-center m-4 ">
-            <img src={practicas01} className="mx-4" alt="practicas-01" style={{ width: "500px" }} />
+            <img id="practices"src={practicas01} className="mx-4" alt="practicas-01" style={{ width: "500px" }} />
         
-            <img src={practicas02} className="mx-4" alt="practicas-02" style={{ width: "500px"}} />
+            <img id="practices" src={practicas02} className="mx-4" alt="practicas-02" style={{ width: "500px"}} />
         
-            <img src={practicas03} className="mx-4" alt="practicas-03" style={{ width: "500px"}} />
+            <img id="practices" src={practicas03} className="mx-4" alt="practicas-03" style={{ width: "500px"}} />
         </div>
         
-        <div className="d-flex justify-center m-4 ">
-            <img src={practicas04} className="mx-4" alt="practicas-04" style={{ width: "500px"}} />
+        <div id="d-flex justify-center m-4 ">
+            <img id="practices" src={practicas04} className="mx-4" alt="practicas-04" style={{ width: "500px"}} />
         
-            <img src={practicas05} className="mx-4" alt="practicas-05" style={{ width: "500px"}} />
+            <img id="practices" src={practicas05} className="mx-4" alt="practicas-05" style={{ width: "500px"}} />
         </div>
     </div>
   )
