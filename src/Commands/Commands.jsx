@@ -15,6 +15,10 @@ import image14 from '../assets/images/commands-14.png'
 import image15 from '../assets/images/commands-15.png'
 import image16 from '../assets/images/commands-16.png'
 import image17 from '../assets/images/commands-17.png'
+import image18 from '../assets/images/commands-19.png'
+import image19 from '../assets/images/commands-20.png'
+import image20 from '../assets/images/commands-21.png'
+import image21 from '../assets/images/commands-22.png'
 
 
 
@@ -70,6 +74,18 @@ function Commands() {
                 </div>
                 <div className="col">
                     <img src={image17} alt="imagen17" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image18} alt="imagen14" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image19} alt="imagen15" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image20} alt="imagen16" style={{ width: "300px" }} />
+                </div>
+                <div className="col">
+                    <img src={image21} alt="imagen17" style={{ width: "300px" }} />
                 </div>
                
             </div>
