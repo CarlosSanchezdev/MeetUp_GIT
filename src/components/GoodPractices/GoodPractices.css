@@ -1,0 +1,7 @@
+#practices {
+    transition: all .2s ease-in-out; 
+}
+
+#practices:hover{
+    transform: scale(0.95);
+}
